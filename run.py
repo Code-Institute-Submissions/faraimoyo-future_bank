@@ -12,8 +12,20 @@ SCOPED_CREDS = CREDS.with_scopes(SCOPE)
 GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDS)
 SHEET = GSPREAD_CLIENT.open('argon-bank')
 
-accounts = SHEET.worksheet('accounts')
+def get_username_data():
+    """
+    Get username name input from the user
+    """
 
-data = accounts.get_all_values()
+    print("What is your username")
+    print("Your username should be an email")
+    print("Example:j.bloggs@yahoo.com\n")
 
-print(data)
+    data = input("Enter your username here:")
+    print(f"The data provided is {data}")
+
+get_username_data()    
+
+
+
+

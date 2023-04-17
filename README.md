@@ -1,31 +1,14 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Google sheets API with Future_Bank Python Code Project 3
 
-Welcome faraimoyo,
+## A fully functional Project written to show how to gather and manipulate data from Google Sheets and deploy using Heroku
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+This project is about a fictional Bank that has fictional client database stored on Google Sheets. The aim of this project is to show how a user would be able to interact with the system to extract client data and print it on the system and/or add new client information to increase the size of the database and clients. Every part of this project is sample code that show how to do the following:
 
-## Reminders
+* Create a Google Sheet database via Google
+* Create a Python Terminal that will interact with the project online
+* Extract Client data from the Google Sheet database
+* Add new client information into the database via Google sheets, thus updating it
+* Deploy the project using Heroku
+* Write a README file where you can read all about it
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
-
-## Creating the Heroku app
-
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
-
-1. `heroku/python`
-2. `heroku/nodejs`
-
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
-
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
-
-Connect your GitHub repository and deploy as normal.
-
-## Constraints
-
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
-
------
-Happy coding!
+https://lucid.app/lucidchart/c27ceabd-9b91-45b3-b527-69b28c8894b1/edit?invitationId=inv_92a441c1-03ec-4c62-8362-f9835185c0b7
